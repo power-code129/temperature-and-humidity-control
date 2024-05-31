@@ -1,8 +1,10 @@
-//Tech Trends Shameer
+//2004apgandhi
+
+//Open the Blynk IoT app and create the UI project, copy and paste the AUTH TOKEN
 
 #define BLYNK_TEMPLATE_ID "TMPL3E6IPCngV"
 #define BLYNK_TEMPLATE_NAME "Temperature and Humidity Monitor"
-#define BLYNK_AUTH_TOKEN "z5bbARSvmSYVveDmsbqjefLNSpilewoo"
+#define BLYNK_AUTH_TOKEN "z5bbARSvmSYVveDmsbqjefLNSpilewoo" 
 
 #define BLYNK_PRINT Serial
 #include <WiFi.h>
@@ -14,8 +16,8 @@
 
 char auth[] = BLYNK_AUTH_TOKEN;
 
-char ssid[] = "Airtel_arok_3180";  // type your wifi name
-char pass[] = "0723192827";  // type your wifi password
+char ssid[] = "***************";  // type your wifi name
+char pass[] = "***************";  // type your wifi password
 
 BlynkTimer timer;
 
@@ -35,7 +37,7 @@ void sendSensor()
     return;
   }
   // You can send any value at any time.
-  // Please don't send more that 10 values per second.
+  // Please don't send more than 10 values per second.
     Blynk.virtualWrite(V0, t);
     Blynk.virtualWrite(V1, h);
     Serial.print("Temperature : ");
