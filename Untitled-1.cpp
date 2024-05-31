@@ -2,9 +2,9 @@
 
 //Open the Blynk IoT app and create the UI project, copy and paste the AUTH TOKEN
 
-#define BLYNK_TEMPLATE_ID "TMPL3E6IPCngV"
+#define BLYNK_TEMPLATE_ID "*****************"
 #define BLYNK_TEMPLATE_NAME "Temperature and Humidity Monitor"
-#define BLYNK_AUTH_TOKEN "z5bbARSvmSYVveDmsbqjefLNSpilewoo" 
+#define BLYNK_AUTH_TOKEN "********************" 
 
 #define BLYNK_PRINT Serial
 #include <WiFi.h>
