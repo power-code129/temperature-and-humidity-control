@@ -1,4 +1,4 @@
-# temperature-and-humidity-control
+# Temperature-and-Humidity-control
 To check the temperature and humidity control in the esp32 wifi module and dht11sensor
 
 ## 1) Hardware Connections:
